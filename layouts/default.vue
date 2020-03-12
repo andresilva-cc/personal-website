@@ -17,3 +17,12 @@
     </v-content>
   </v-app>
 </template>
+
+<script>
+export default {
+  created() {
+    const hours = new Date().getHours()
+    if (hours >= 18 || hours < 6) this.$vuetify.theme.dark = true
+  }
+}
+</script>
