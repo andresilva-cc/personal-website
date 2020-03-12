@@ -12,7 +12,7 @@
       <div class="display-2">André Luiz da Silva</div>
       <div class="headline pt-2">CEO & Co-Founder @ Nuxstep</div>
     </v-col>
-    
+
     <!-- Links -->
     <v-col cols="12">
       <v-btn
