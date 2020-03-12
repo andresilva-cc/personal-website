@@ -1,29 +1,25 @@
 <template>
-  <v-row justify="center" align="center" class="text-center text-md-left">
-    <v-col cols="12" md="4">
+  <v-row justify="center" align="center" class="text-center">
+    <v-col cols="12">
       <v-avatar size="250">
         <img src="/profile.jpg" />
       </v-avatar>
     </v-col>
-    <v-col cols="12" md="6">
-      <v-row justify="center" align="center" class="text-center text-md-left">
-        <v-col cols="12">
-          <div class="display-2">André Luiz da Silva</div>
-          <div class="headline pt-2">CEO & Co-Founder @ Nuxstep</div>
-        </v-col>
-        <v-col cols="12">
-          <v-btn
-            v-for="(link, i) in links"
-            :key="i"
-            :ripple="false"
-            icon
-            :href="link.to"
-            :target="link.target"
-          >
-            <v-icon>{{ link.icon }}</v-icon>
-          </v-btn>
-        </v-col>
-      </v-row>
+    <v-col cols="12">
+      <div class="display-2">André Luiz da Silva</div>
+      <div class="headline pt-2">CEO & Co-Founder @ Nuxstep</div>
+    </v-col>
+    <v-col cols="12">
+      <v-btn
+        v-for="(link, i) in links"
+        :key="i"
+        :ripple="false"
+        icon
+        :href="link.to"
+        :target="link.target"
+      >
+        <v-icon>{{ link.icon }}</v-icon>
+      </v-btn>
     </v-col>
   </v-row>
 </template>
