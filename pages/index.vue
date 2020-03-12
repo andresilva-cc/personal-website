@@ -35,13 +35,13 @@ export default {
           target: '_blank'
         },
         {
-          icon: 'mdi-facebook',
-          to: 'https://www.facebook.com/andresilva.cc',
+          icon: 'mdi-instagram',
+          to: 'https://www.instagram.com/andresilva.cc/',
           target: '_blank'
         },
         {
-          icon: 'mdi-instagram',
-          to: 'https://www.instagram.com/andresilva.cc/',
+          icon: 'mdi-facebook',
+          to: 'https://www.facebook.com/andresilva.cc',
           target: '_blank'
         },
         {
