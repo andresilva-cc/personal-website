@@ -1,6 +1,11 @@
 <template>
   <v-app>
-    <v-app-bar fixed app> </v-app-bar>
+    <v-app-bar flat fixed app>
+      <v-spacer />
+      <v-btn icon @click.stop="$vuetify.theme.dark = !$vuetify.theme.dark">
+        <v-icon>mdi-brightness-6</v-icon>
+      </v-btn>
+    </v-app-bar>
     <v-content>
       <v-container>
         <nuxt />
