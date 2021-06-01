@@ -10,11 +10,11 @@
         <v-icon>mdi-brightness-6</v-icon>
       </v-btn>
     </v-app-bar>
-    <v-content>
-      <v-container>
+    <v-main>
+      <v-container fill-height>
         <nuxt />
       </v-container>
-    </v-content>
+    </v-main>
   </v-app>
 </template>
 
