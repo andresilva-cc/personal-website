@@ -1,5 +1,5 @@
 <template>
-  <v-row justify="center" align="center" class="text-center">
+  <v-row justify="center" align="center" class="text-center content">
     <!-- Profile Picture -->
     <v-col cols="12">
       <v-avatar size="250">
@@ -10,6 +10,7 @@
     <!-- Personal Info -->
     <v-col cols="12">
       <div class="display-2">André Luiz da Silva</div>
+      <div class="headline pt-2">Software Engineer</div>
       <div class="headline pt-2">CEO & Co-Founder @ Nuxstep</div>
     </v-col>
 
@@ -69,3 +70,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.content {
+  margin-top: -100px;
+}
+</style>
