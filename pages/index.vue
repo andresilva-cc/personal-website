@@ -9,13 +9,13 @@
 
     <!-- Personal Info -->
     <v-col cols="12">
-      <div class="display-2">
+      <div class="text-h3 primary--text">
         André Luiz da Silva
       </div>
-      <div class="headline pt-2">
+      <div class="text-h5 pt-2">
         Software Engineer
       </div>
-      <div class="headline pt-2">
+      <div class="text-body-1 pt-2">
         CEO & Co-Founder @ Nuxstep
       </div>
     </v-col>
