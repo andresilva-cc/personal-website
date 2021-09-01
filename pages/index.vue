@@ -3,15 +3,21 @@
     <!-- Profile Picture -->
     <v-col cols="12">
       <v-avatar size="250">
-        <img src="/profile.jpg" />
+        <img src="/profile.jpg">
       </v-avatar>
     </v-col>
 
     <!-- Personal Info -->
     <v-col cols="12">
-      <div class="display-2">André Luiz da Silva</div>
-      <div class="headline pt-2">Software Engineer</div>
-      <div class="headline pt-2">CEO & Co-Founder @ Nuxstep</div>
+      <div class="display-2">
+        André Luiz da Silva
+      </div>
+      <div class="headline pt-2">
+        Software Engineer
+      </div>
+      <div class="headline pt-2">
+        CEO & Co-Founder @ Nuxstep
+      </div>
     </v-col>
 
     <!-- Links -->
@@ -32,7 +38,7 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       links: [
         {
