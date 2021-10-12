@@ -10,13 +10,13 @@
     <!-- Personal Info -->
     <v-col cols="12">
       <div class="text-h3 primary--text">
-        André Luiz da Silva
+        {{ name }}
       </div>
       <div class="text-h5 pt-2">
-        Software Engineer
+        {{ title }}
       </div>
-      <div class="text-body-1 pt-2">
-        CEO & Co-Founder @ Nuxstep
+      <div v-if="currentJob" class="text-body-1 pt-2">
+        {{ currentJob.title }} @ {{ currentJob.company }}
       </div>
     </v-col>
 
@@ -50,6 +50,10 @@
 export default {
   data () {
     return {
+      name: 'André Luiz da Silva',
+      title: 'Software Engineer',
+      currentJob: false,
+
       links: [
         {
           icon: 'mdi-whatsapp',
