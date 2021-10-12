@@ -20,6 +20,16 @@
       </div>
     </v-col>
 
+    <!-- Emails -->
+    <v-col cols="12">
+      <template v-for="(email, index) in emails">
+        <template v-if="index > 0">
+          |
+        </template>
+        <a :key="email" :href="`mailto:${email}`">{{ email }}</a>
+      </template>
+    </v-col>
+
     <!-- Links -->
     <v-col cols="12">
       <v-btn
@@ -54,6 +64,11 @@ export default {
       title: 'Software Engineer',
       currentJob: false,
 
+      emails: [
+        'hello@andresilva.cc',
+        'jobs@andresilva.cc'
+      ],
+
       links: [
         {
           icon: 'mdi-whatsapp',
@@ -79,11 +94,6 @@ export default {
           icon: 'mdi-github',
           to: 'https://github.com/andresilva-cc',
           target: '_blank'
-        },
-        {
-          icon: 'mdi-email',
-          to: 'mailto:andreluiz.97@outlook.com',
-          target: 'self'
         }
       ]
     }
