@@ -30,6 +30,16 @@
       </template>
     </v-col>
 
+    <!-- Resume -->
+    <v-col cols="12">
+      <v-btn text color="primary" href="/resume.pdf" target="_blank">
+        Resume
+      </v-btn>
+      <v-btn text color="primary" href="/curriculo.pdf" target="_blank">
+        Currículo
+      </v-btn>
+    </v-col>
+
     <!-- Links -->
     <v-col cols="12">
       <v-btn
@@ -41,16 +51,6 @@
         :target="link.target"
       >
         <v-icon>{{ link.icon }}</v-icon>
-      </v-btn>
-    </v-col>
-
-    <!-- Resume -->
-    <v-col cols="12">
-      <v-btn text color="primary" href="/resume.pdf" target="_blank">
-        Resume
-      </v-btn>
-      <v-btn text color="primary" href="/curriculo.pdf" target="_blank">
-        Currículo
       </v-btn>
     </v-col>
   </v-row>
