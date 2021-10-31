@@ -9,10 +9,10 @@
 
     <!-- Personal Info -->
     <v-col cols="12">
-      <div class="text-h3 primary--text">
+      <div class="text-h4 text-sm-h3 primary--text">
         {{ name }}
       </div>
-      <div class="text-h5 pt-2">
+      <div class="text-h6 text-sm-h5 pt-2">
         {{ title }}
       </div>
       <div v-if="currentJob" class="text-body-1 pt-2">
