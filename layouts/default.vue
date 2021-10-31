@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app v-show="ready">
     <v-app-bar flat fixed app color="transparent">
       <v-spacer />
       <v-btn
@@ -20,9 +20,19 @@
 
 <script>
 export default {
+  data () {
+    return {
+      ready: false
+    }
+  },
+
   created () {
     const hours = new Date().getHours()
     if (hours >= 18 || hours < 6) { this.$vuetify.theme.dark = true }
+  },
+
+  mounted () {
+    this.ready = true
   }
 }
 </script>
