@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar flat fixed app color="transparent">
+    <v-app-bar dense flat fixed app color="transparent">
       <v-spacer />
       <v-btn
         :ripple="false"
