@@ -13,7 +13,7 @@ export default {
       {
         hid: 'description',
         name: 'description',
-        content: 'André Luiz da Silva Personal Website'
+        content: 'Software Engineer'
       },
       { name: 'msapplication-TileColor', content: '#121212' },
       { name: 'msapplication-config', content: '/browserconfig.xml' },
