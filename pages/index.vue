@@ -94,6 +94,11 @@ export default {
           icon: 'mdi-github',
           to: 'https://github.com/andresilva-cc',
           target: '_blank'
+        },
+        {
+          icon: 'mdi-npm',
+          to: 'https://www.npmjs.com/~andresilva.cc',
+          target: '_blank'
         }
       ]
     }
