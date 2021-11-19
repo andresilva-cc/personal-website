@@ -62,7 +62,10 @@ export default {
     return {
       name: 'André Luiz da Silva',
       title: 'Software Engineer',
-      currentJob: false,
+      currentJob: {
+        title: 'Front-end Developer',
+        company: 'Atlas Technologies'
+      },
 
       emails: [
         'hello@andresilva.cc',
