@@ -63,7 +63,7 @@ export default {
       name: 'André Luiz da Silva',
       title: 'Software Engineer',
       currentJob: {
-        title: 'Front-end Developer',
+        title: 'Front-end Engineer',
         company: 'Atlas Technologies'
       },
 
